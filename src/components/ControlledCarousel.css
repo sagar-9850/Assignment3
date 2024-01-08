@@ -1,0 +1,87 @@
+/* ControlledCarousel.css */
+
+.custom-controls .carousel-control-next-icon {
+  transform: rotate(180deg); /* Rotate the icon 180 degrees */
+}
+
+.card {
+  width: 70%; /* Set your desired width */
+  height: 70vh;
+  border: 1px solid #ddd;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.carousel-item {
+  min-height: 70vh;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+}
+
+/* Remove centering styles */
+.carousel {
+  display: block;
+}
+
+.carousel-inner {
+  height: 70vh; /* Set a fixed height for the carousel items */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  transform-origin: left center; /* Set the transform origin to the left side */
+}
+
+body {
+  background: linear-gradient(to bottom, #c3b8bc, #cbcdd2);
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* ControlledCarousel.css */
+
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f8f9fa00;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.sidebar li:hover {
+  background-color: #d6d8db;
+  opacity: 1; /* Change the background color on hover */
+}
+
+.sidebar li:not(:hover) {
+  opacity: 0.5; /* Make non-hovered items partially opaque */
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
